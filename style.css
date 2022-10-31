@@ -1,4 +1,8 @@
-.nav-container {
+body {
+  margin: auto;
+}
+
+.nav-bar .nav-container {
   background-color: #000000;
   color: #ffffff;
   display: flex;
@@ -6,17 +10,29 @@
   align-items: center;
   width: 100vw;
   font-family: "Open Sans", sans-serif;
+  padding-left: 0px;
 }
 
 .nav-bar a {
   color: #ffffff;
   text-decoration: none;
-  padding: 5px 15px 5px 15px;
+  padding: 10px 15px 10px 15px;
 }
 
-.menu-list li {
-  display: inline;
-  float: left;
+.nav-container {
+  padding: 10px 0px;
+}
+
+.nav-container h1 {
+  padding-left: 100px;
+}
+
+.nav-container ul {
+  padding-right: 100px;
+}
+
+.nav-container li {
+  display: inline-block;
 }
 
 .page-bg {
@@ -33,4 +49,15 @@
   font-size: 30px;
   text-align: center;
   color: #ffffff;
+}
+
+.container-content p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  word-spacing: 1.5px;
+  letter-spacing: 2px;
+  color: #555555;
+}
+.container-content h2 {
+  margin: 30px 0px;
 }
